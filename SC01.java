@@ -6,7 +6,7 @@ public class SC01 {
 
         int N = input.nextInt(); // adik dira melakukan permainan sebanyak N kali
 
-        int[] permainan = new int[N];
+        int[] permainan = new int[N]; // tampung di array
 
         for (int i = 0; i < N; i++) {
             permainan[i] = input.nextInt();
@@ -16,7 +16,7 @@ public class SC01 {
         for(int i = 0; i < N; i++){ // int i = 1, int i = 2, int i = 3, int i = 4 
             int mod = permainan[i] % 4;
             // [6, 1, 4]
-            // ["HIDUP HIDUP", "HIDUP MATI", "MATI MATI"]
+            // "HIDUP HIDUP", "HIDUP MATI", "MATI MATI"
 
 
             switch (mod) {
